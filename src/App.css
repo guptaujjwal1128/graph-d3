@@ -1,33 +1,186 @@
-.App {
+.label-style{
+  font-size: 18px;
+  margin:10px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.input-radio{
+  margin:2px 5px 10px 15px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.select-wrapper{
+  max-height:100px;
+  overflow:auto;
+}
+
+.select-style{
+  margin:5px;
+  margin-left:50px;
+  width:80%;
+}
+
+.select-year-style{
+  margin:15px;
+  margin-left:50px;
+  margin-top:0px;
+  width:80%;
+}
+
+.special-label{
+  margin-left:5px;
+}
+
+.special-select{
+  width:80%;
+}
+
+.swot-label{
+  font-weight: bold;
+  max-height: 30px;
+  margin:5px;
+  margin-bottom: 0px;
+}
+
+.swot-select{
+  max-height: 30px;
+  width:80%;
+  margin:5px;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+
+.label-year{
+  margin:10px;
+  margin-bottom:0px;
+  max-height: 30px;
+  font-weight: bold;
+}
+
+.switch-year{
+  margin:10px;
+  max-height: 30px;
+  float:right;
+  margin-top: 6px;
+}
+
+.slider{
+  min-width:700px;
+  margin-top:5px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.page-label{
+  margin:10px;
+  font-family: sans-serif;
+  opacity: .7;
+}
+
+.scatterplot{
+  margin:50px;
+}
+
+.Axis path,
+.Axis line {
+  stroke: #E0E0E0;
+}
+
+.Axis text {
+  font-size: 11px;
+  fill: black;
+}
+
+.Axis-Bottom text {
+  transform: rotate(-45deg);
+  text-anchor: end;
+}
+
+.svg-circle:hover{
+  fill:black;
+}
+
+.topic-node{
+  font-size:24px;
+  color:slategrey;
+  margin-left:45%;
+  width:100%;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+.small-node{
+width:100;
+margin-left: 35%;
+margin-top:0px;
+margin-bottom: 0px;
+}
+.link-node{
+  margin-left:5%;
+  margin-right:5%;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.topic-high{
+  margin-top:5%;
+  font-size:24px;
+  color:slategrey;
+  margin-left:40%;
+  width:100%;
+}
+.small-high{
+width:100;
+margin-left: 15%;
+margin-right: 15%;
+margin-top:0px;
+margin-bottom: 0px;
+text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.feedback-div{
+  height:300px;
+  background-color: white;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.App-link {
-  color: #61dafb;
+.input-feedback{
+    margin:50px;
+    height:70%;
+    width:90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-feedback{
+  margin-left:5%;
+  font-size: 20px;
+  background-color:blue;
+  color:white;
+}
+
+.guide-div{
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.guide-heading{
+  font-size:18px;
+  color:grey;
+  font-weight:900;
+}
+.sub-guide-heading{
+  font-size:18px;
+  color:grey;
+  font-weight:900;
+  margin-left:2%;
+}
+.guide-content{
+  opacity:0.8;
+  text-align: justify;
 }
